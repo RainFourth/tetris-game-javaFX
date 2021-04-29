@@ -1,0 +1,145 @@
+.grid-field {
+	-fx-border-color: grey;
+    -fx-border-style: solid;
+    -fx-border-width: 3px;
+    -fx-border-radius: 2px;
+	/*-fx-focus-traversable: true;*/
+    /*-fx-grid-lines-visible: true;*/
+}
+.root-box {
+	-fx-padding: 30px;
+	-fx-spacing: 10px;
+	-fx-fill-height: false;
+	-fx-background-image: url(bgc4.jpg);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat | no-repeat;
+    -fx-background-size: cover;
+}
+.info {
+	-fx-spacing: 10px;
+}
+.text {
+	-fx-font-size: 20px;
+	-fx-text-fill: hotpink;
+	-fx-text-style: bold;
+	-fx-highlight-fill: null;   /*запретить выбирать текст*/
+	-fx-highlight-text-fill: null;/*запретить выбирать текст*/
+	-fx-font-weight: bold;
+}
+.logo {
+	/*-fx-width: 100%;
+	-fx-height: 100%;*/
+	-fx-background-image: url(tetris-logo.png);
+	-fx-background-color: black;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat | no-repeat;
+    -fx-background-size: 100%, auto;
+}
+.next-figure {
+}
+.main-menu-box {
+	-fx-alignment: center;
+	-fx-width: 100%;
+	-fx-height: 100%;
+	-fx-background-image: url(bgc4.jpg);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat | no-repeat;
+    -fx-background-size: cover;
+}
+
+
+
+
+
+.text-main-menu-0 {
+	-fx-min-width: 25px;/*чтобы задать фиксированную ширину, высоту, нужно задать их одинаковые min max значения*/
+	-fx-max-width: 25px;
+	-fx-font-size: 20px;
+	-fx-text-fill: hotpink;
+	-fx-text-style: bold;
+	-fx-highlight-fill: null;   /*запретить выбирать текст*/
+	-fx-highlight-text-fill: null;/*запретить выбирать текст*/
+	-fx-font-weight: bold;
+}
+
+.text-main-menu-1 {
+	-fx-min-width: 80px;/*чтобы задать фиксированную ширину, высоту, нужно задать их одинаковые min max значения*/
+	-fx-max-width: 80px;
+	-fx-font-size: 20px;
+	/*-fx-font-family: 'Sans Serif';*/
+	-fx-text-fill: hotpink;
+	-fx-text-style: bold;
+	-fx-highlight-fill: null;   /*запретить выбирать текст*/
+	-fx-highlight-text-fill: null;/*запретить выбирать текст*/
+	-fx-font-weight: bold;
+	-fx-editable: false;
+}
+.text-main-menu-1-1 {
+	-fx-min-width: 130px;/*чтобы задать фиксированную ширину, высоту, нужно задать их одинаковые min max значения*/
+	-fx-max-width: 130px;
+	-fx-font-size: 20px;
+	/*-fx-font-family: 'Sans Serif';*/
+	-fx-text-fill: hotpink;
+	-fx-text-style: bold;
+	-fx-highlight-fill: null;   /*запретить выбирать текст*/
+	-fx-highlight-text-fill: null;/*запретить выбирать текст*/
+	-fx-font-weight: bold;
+	-fx-editable: false;
+}
+.grid-main-menu {
+	-fx-min-width: 200px;/*чтобы задать фиксированную ширину, высоту, нужно задать их одинаковые min max значения*/
+	-fx-max-width: 200px;
+}
+.hbox-main-menu {
+	-fx-min-width: 200px;/*чтобы задать фиксированную ширину, высоту, нужно задать их одинаковые min max значения*/
+	-fx-max-width: 200px;
+}
+
+
+
+.text-copyright {
+	-fx-min-width: 500px;/*чтобы задать фиксированную ширину, высоту, нужно задать их одинаковые min max значения*/
+	-fx-max-width: 500px;
+	-fx-min-height: 300px;
+	-fx-font-size: 20px;
+	-fx-text-fill: hotpink;
+	-fx-text-style: bold;
+	-fx-font-weight: bold;
+	-fx-wrap-text: true;
+}
+
+
+
+
+
+
+.add-border {
+	-fx-border-color: grey;
+    -fx-border-style: solid;
+    -fx-border-width: 3px;
+    -fx-border-radius: 2px;
+}
+
+.block-yellow {
+	-fx-image: url(imgs/block-yellow-20x20.png);
+}
+.block-violet {
+	-fx-image: url(imgs/block-violet-20x20.png);
+}
+.block-green {
+	-fx-image: url(imgs/block-green-20x20.png);
+}
+.block-light-blue {
+	-fx-image: url(imgs/block-light-blue-20x20.png);
+}
+.block-orange {
+	-fx-image: url(imgs/block-orange-20x20.png);
+}
+.block-blue {
+	-fx-image: url(imgs/block-blue-20x20.png);
+}
+.block-red {
+	-fx-image: url(imgs/block-red-20x20.png);
+}
+
+	
